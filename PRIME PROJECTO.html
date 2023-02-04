@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title>Sorteo de Vehículo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sorteo de Vehículo</h1>
+    <h2>Sponsors</h2>
+    <p>Aquí estarán los sponsors del sorteo.</p>
+    <div class="sponsors">
+        <img src="images/sponsor1.jpg" alt="Logo del Sponsor 1">
+        <img src="images/sponsor2.jpg" alt="Logo del Sponsor 2">
+    </div>
+    <h2>Vehículos Sorteables</h2>
+    <p>Aquí estarán los vehículos sorteables.</p>
+    <div class="vehiculos">
+        <img src="images/vehiculo1.jpg" alt="Imagen de Vehículo 1">
+        <img src="images/vehiculo2.jpg" alt="Imagen de Vehículo 2">
+    </div>
+    <h2>Sección de Pagos</h2>
+    <p>Aquí estará la sección de pagos para entrar en el sorteo.</p>
+    <form action="pago.php" method="post">
+        <input type="text" name="nombre" placeholder="Nombre completo">
+        <input type="text" name="correo" placeholder="Correo electrónico">
+        <input type="number" name="monto" placeholder="Monto a pagar">
+        <input type="submit" value="Realizar pago">
+    </form>
+</body>
+</html>
+
+
+<Limit POST PUT>
+order allow,deny
+deny from all
+</Limit>
+
+# Establecer límites de carga de la página
+<IfModule mod_reqtimeout.c>
+    RequestReadTimeout header=20-40,MinRate=500 body=20,MinRate=500
+</IfModule>
+
+# Establecer límites para evitar ataques por fuerza bruta
+<IfModule mod_limitipconn.c>
+    <Location />
+        MaxConnPerIP 10
+    </Location>
+</IfModule>
+
+# Bloquear el acceso a carpetas específicas
+<Directory "/var/www/html/admin">
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Directory>
+UN FIREWALL MEJOR QUE ESE 
+
+# 
+<Limit POST PUT>
+order allow,deny
+deny from all
+</Limit>
+
+# Establecer límites de carga de la página
+<IfModule mod_reqtimeout.c>
+    RequestReadTimeout header=20-40,MinRate=500 body=20,MinRate=500
+</IfModule>
+
+# Establecer límites para evitar ataques por fuerza bruta
+<IfModule mod_limitipconn.c>
+    <Location />
+        MaxConnPerIP 10
+    </Location>
+</IfModule>
+
+# Bloquear el acceso a carpetas específicas
+<Directory "/var/www/html/admin">
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Directory>
+
+<html>
+<head>
+    <title>Sorteo de Vehículo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sorteo de Vehículo</h1>
+    <h2>Sponsors</h2>
+    <p>Aquí estarán los sponsors del sorteo.</p>
+    <div class="sponsors">
+        <img src="images/sponsor1.jpg" alt="Logo del Sponsor 1">
+        <img src="images/sponsor2.jpg" alt="Logo del Sponsor 2">
+    </div>
+    <h2>Vehículos Sorteables</h2>
+    <p>Aquí estarán los vehículos sorteables.</p>
+    <div class="vehiculos">
+        <img src="images/vehiculo1.jpg" alt="Imagen de Vehículo 1">
+        <img src="images/vehiculo

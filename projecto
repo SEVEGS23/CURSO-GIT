@@ -1,0 +1,69 @@
+h2><header>
+    <div id="logo">
+      <a href="#">Panarix</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+        <p>Lista de preguntas y respuestas comunes sobre Panarix.</p>
+      </section>
+      <section id="chat">
+        <h2>Chat Interactivo</h2>
+        <p>Canal de chat para comunicarse con otros usuarios y el equipo de Panarix.</p>
+      </section>
+      <section id="apoyo">
+        <h2>Apoyo</h2>
+        <p>Apartado para realizar donaciones y apoyar al proyecto.</p>
+      </section>
+      <section id="suscripcion">
+        <h2>Suscripción al Canal Panarix</h2>
+        <p>Aquí puedes suscribirte para recibir notificaciones y actualizaciones sobre el proyecto Panarix.</p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panarix</title>
+  <style>
+      body {
+          animation: fadeIn .5s;
+          -webkit-animation: fadeIn .5s;
+      }
+
+      h1 {
+          animation: slideIn .5s;
+          -webkit-animation: slideIn .5s;
+      }
+
+      @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+      }
+
+      @-webkit-keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+      }
+
+      @keyframes slideIn {
+          from { transform: translateX(-100%); }
+          to { transform: translateX(0%); }
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a Panarix</h1>
+    <div class="navigation">
+      <ul>
+        <li><a href="#comun
+

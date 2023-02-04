@@ -1,0 +1,303 @@
+<<html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+    <head>
+        <title>Sorteo de Vehículo</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Sorteo de Vehículo</h1>
+        <h2>Sponsors</h2>
+        <p>Aquí estarán los sponsors del sorteo.</p>
+        <div class="sponsors">
+            <img src="images/sponsor1.jpg" alt="Logo del Sponsor 1">
+            <img src="images/sponsor2.jpg" alt="Logo del Sponsor 2">
+        </div>
+        <h2>Vehículos Sorteables</h2>
+        <p>Aquí estarán los vehículos sorteables.</p>
+        <div class="vehiculos">
+            <img src="images/vehiculo1.jpg" alt="Imagen de Vehículo 1">
+            <img src="images/vehiculo2.jpg" alt="Imagen de Vehículo 2">
+        </div>
+        <h2>Sección de Pagos</h2>
+        <p>Aquí estará la sección de pagos para entrar en el sorteo.</p>
+        <form action="pago.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre completo">
+            <input type="text" name="correo" placeholder="Correo electrónico">
+            <input type="number" name="monto" placeholder="Monto a pagar">
+            <input type="submit" value="Realizar pago">
+        </form>
+    </body>
+    </html>!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PANARIX</title>
+    <!-- Añade aquí los enlaces a los estilos CSS -->
+  </head>
+  <body>
+    <!-- Aquí va el contenido de tu página web -->
+  </body>
+
+ </HTML display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  #logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #logo a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;>
+    <section id="hero">
+        <h1>Panarix</h1>
+        <p>Bienvenidos a Panarix, el lugar perfecto para todos los amantes de los videojuegos. Aquí encontrarás una amplia selección de los últimos juegos para PC, consolas y dispositivos móviles, además de noticias frescas y actualizadas de la industria del gaming. Conoce sobre los lanzamientos más esperados, los juegos más populares y las tendencias en el mundo de los videojuegos. 
+      
+      Además, Panarix cuenta con una comunidad activa y amigable de jugadores apasionados que comparten sus experiencias, consejos y trucos en línea. Ya sea que estés buscando un juego nuevo para jugar solo o con amigos, o que quieras conocer a otros jugadores y discutir tus juegos favoritos, Panarix es el lugar ideal para ti. 
+      
+      No esperes más, únete a Panarix y comienza a disfrutar de una experiencia de juego emocionante y sin igual.</p>
+      </section>
+
+      #hero {
+        text-align: center;
+        padding: 100px 0;
+        background-color: #f2f2f2;
+      }
+      
+      #hero h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      
+      #hero p {
+        font-size: 18px;
+        color: #333;
+        line-height: 1.5;
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      #hero .cta {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 40px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      Aquí hay un ejemplo de código HTML con la llamada a la acción dentro de la sección hero:
+      
+      css
+      Copy code
+      <section id="hero">
+        <h1>Panarix</h1>
+        <p>Bienvenidos a Panarix, el lugar perfecto para todos los amantes de los videojuegos. Aquí encontrarás una amplia selección de los últimos juegos para PC, consolas y dispositivos móviles, además de noticias frescas y actualizadas de la industria del gaming. Conoce sobre los lanzamientos más esperados, los juegos más populares y las tendencias en el mundo de los videojuegos.</p>
+        <a href="#" class="cta">Unirse a la comunidad</a>
+      </section>
+      
+      
+      
+      
+      <section id="faq">
+        <div class="row">
+          <div class="col-lg-2 col-md-6">
+            <img src="entrada.jpg" alt="Entrada">
+            <h3>Preguntas frecuentes</h3>
+            <ul>
+              <li><a href="#">¿Qué es Panarix?</a></li>
+              <li><a href="#">¿Cuáles son los servicios que ofrece Panarix?</a></li>
+              <li><a href="#">¿Cómo puedo ponerme en contacto con Panarix?</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <img src="panarix.jpg" alt="Panarix">
+            <h2>Chat general</h2>
+            <p>Únete a la comunidad de Panarix y chatea con otros miembros acerca de tus juegos favoritos, consejos y trucos, y mucho más. ¡Nos encantaría conocerte!</p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h2>Información de la empresa</h2>
+            <p>Panarix es una empresa dedicada al mundo de los videojuegos. Ofrecemos una amplia gama de servicios, desde consejos y ayuda personal hasta cursos de aprendizaje en línea. Nuestro objetivo es brindar a los jugadores una experiencia de juego inolvidable y ayudarles a mejorar sus habilidades y conocimientos en el mundo de los videojuegos.</p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h3>Servicios</h3>
+            <p>Conoce más acerca de nuestros servicios de gaming consejos y ayuda personal <a href="#services">aquí</a>.</p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h2>Cursos de aprendizaje</h2>
+            <p>Aprende de los mejores con nuestros cursos de aprendizaje en línea. Desde consejos y trucos hasta técnicas avanzadas, tenemos algo para todos los niveles de jugadores. <a href="#courses">Visítanos aquí</a> para ver nuestra selección de cursos.</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      
+      
+     
+      <section id="gallery-section">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="image1.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image2.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <!-- continuar con 13 imágenes más -->
+        </div>
+      </section>
+      
+      
+      
+      
+      <section id="gallery-section">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="image1.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image2.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image3.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image4.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image5.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image6.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image7.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image8.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image9.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image10.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image11.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image12.jpg" alt="Imagen dedicada al gaming">
+            <p>Imagen dedicada al gaming</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image13.jpg" alt="Logo atractivo de la empresa">
+            <p>Logo atractivo de la empresa</p>
+          </div>
+          <div class="gallery-item">
+            <img src="image14.jpg" alt="Imagen dedicada
+      
+      
+      
+     
+      
+      css
+      Copy code
+      #gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px 0;
+      }
+      
+      .image-container {
+        width: 20%;
+        margin: 20px;
+        text-align: center;
+      }
+      
+      .image-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ccc;
+      }
+      
+      .image-desc {
+        font-size: 14px;
+        color: #333;
+        margin-top: 10px;
+      }
+      Nota: Se puede ajustar el ancho y el margen de las imágenes y el tamaño de la fuente para adaptarse a tus necesidades específicas.
+    
+      
+      php
+      Copy code
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="UTF-8">
+          <title>Título de la página web</title>
+          <!-- Añade aquí los enlaces a los estilos CSS -->
+        </head>
+        <body>
+          <!-- Aquí va el contenido de tu página web -->
+        </body>
+      </html>
+      La declaración DOCTYPE indica al navegador que se trata de un documento HTML válido y que debe seguir las reglas del estándar HTML en su renderización.
+      
+      
+      
+      
+      
+
+</html>
